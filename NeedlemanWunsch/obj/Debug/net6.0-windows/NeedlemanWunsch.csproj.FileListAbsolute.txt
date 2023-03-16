@@ -1,0 +1,17 @@
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net6.0-windows\NeedlemanWunsch.exe
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net6.0-windows\NeedlemanWunsch.deps.json
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net6.0-windows\NeedlemanWunsch.runtimeconfig.json
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net6.0-windows\NeedlemanWunsch.dll
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\bin\Debug\net6.0-windows\NeedlemanWunsch.pdb
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.csproj.AssemblyReference.cache
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.Form1.resources
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.csproj.GenerateResource.cache
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.AssemblyInfoInputs.cache
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.AssemblyInfo.cs
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.csproj.CoreCompileInputs.cache
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.dll
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\refint\NeedlemanWunsch.dll
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.pdb
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\NeedlemanWunsch.genruntimeconfig.cache
+C:\Users\qweqweq\source\repos\NeedlemanWunsch\NeedlemanWunsch\obj\Debug\net6.0-windows\ref\NeedlemanWunsch.dll
