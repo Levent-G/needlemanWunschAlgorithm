@@ -30,7 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
+            this.alignmentseq1 = new System.Windows.Forms.Label();
             this.matchText = new System.Windows.Forms.TextBox();
             this.Matche = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,13 +41,17 @@
             this.seq2Text = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.seq1Text = new System.Windows.Forms.TextBox();
+            this.alignmentseq2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.score = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Orange;
-            this.button1.Location = new System.Drawing.Point(365, 394);
+            this.button1.Location = new System.Drawing.Point(399, 391);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 45);
             this.button1.TabIndex = 0;
@@ -67,14 +71,15 @@
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView1_RowPostPaint);
             // 
-            // label1
+            // alignmentseq1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(734, 390);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.alignmentseq1.AutoSize = true;
+            this.alignmentseq1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.alignmentseq1.Location = new System.Drawing.Point(515, 341);
+            this.alignmentseq1.Name = "alignmentseq1";
+            this.alignmentseq1.Size = new System.Drawing.Size(124, 21);
+            this.alignmentseq1.TabIndex = 2;
+            this.alignmentseq1.Text = "alignmentseq1";
             // 
             // matchText
             // 
@@ -139,7 +144,7 @@
             // 
             // seq2Text
             // 
-            this.seq2Text.Location = new System.Drawing.Point(259, 411);
+            this.seq2Text.Location = new System.Drawing.Point(268, 414);
             this.seq2Text.Name = "seq2Text";
             this.seq2Text.Size = new System.Drawing.Size(100, 23);
             this.seq2Text.TabIndex = 11;
@@ -156,10 +161,51 @@
             // 
             // seq1Text
             // 
-            this.seq1Text.Location = new System.Drawing.Point(259, 382);
+            this.seq1Text.Location = new System.Drawing.Point(268, 385);
             this.seq1Text.Name = "seq1Text";
             this.seq1Text.Size = new System.Drawing.Size(100, 23);
             this.seq1Text.TabIndex = 9;
+            // 
+            // alignmentseq2
+            // 
+            this.alignmentseq2.AutoSize = true;
+            this.alignmentseq2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.alignmentseq2.Location = new System.Drawing.Point(515, 362);
+            this.alignmentseq2.Name = "alignmentseq2";
+            this.alignmentseq2.Size = new System.Drawing.Size(124, 21);
+            this.alignmentseq2.TabIndex = 13;
+            this.alignmentseq2.Text = "alignmentseq2";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(492, 8);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(113, 20);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Çalışma Süresi:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(611, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(57, 21);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "label8";
+            // 
+            // score
+            // 
+            this.score.AutoSize = true;
+            this.score.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.score.Location = new System.Drawing.Point(691, 420);
+            this.score.Name = "score";
+            this.score.Size = new System.Drawing.Size(54, 21);
+            this.score.TabIndex = 16;
+            this.score.Text = "score:";
             // 
             // Form1
             // 
@@ -167,6 +213,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.score);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.alignmentseq2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.seq2Text);
             this.Controls.Add(this.label5);
@@ -177,7 +227,7 @@
             this.Controls.Add(this.missmatchText);
             this.Controls.Add(this.Matche);
             this.Controls.Add(this.matchText);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.alignmentseq1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -192,7 +242,7 @@
 
         private Button button1;
         private DataGridView dataGridView1;
-        private Label label1;
+        private Label alignmentseq1;
         private TextBox matchText;
         private Label Matche;
         private Label label3;
@@ -203,5 +253,9 @@
         private TextBox seq2Text;
         private Label label5;
         private TextBox seq1Text;
+        private Label alignmentseq2;
+        private Label label7;
+        private Label label8;
+        private Label score;
     }
 }
